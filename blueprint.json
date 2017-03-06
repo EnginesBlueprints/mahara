@@ -149,24 +149,24 @@
         "name": "admin_password",
         "value": "",
         "mandatory": true,
-        "immutable": false,
         "ask_at_build_time": true,
         "build_time_only": true,
+        "immutable": false,
         "input": {
-          "type": "password",
           "label": "Admin Password",
+          "type": "password",
           "title": "",
           "comment": "",
           "hint": "8 characters please remember or write down",
           "placeholder": "",
+          "collection": {
+            "items": {
+            },
+            "include_blank": false
+          },
           "validation": {
             "pattern": "",
             "message": ""
-          },
-          "collection": {
-            "include_blank": false,
-            "items": {
-            }
           }
         }
       },
@@ -174,24 +174,24 @@
         "name": "admin_email",
         "value": "",
         "mandatory": true,
-        "immutable": true,
         "ask_at_build_time": true,
         "build_time_only": false,
+        "immutable": true,
         "input": {
-          "type": "text",
           "label": "Admin Email for login ",
+          "type": "email",
           "title": "",
           "comment": "",
           "hint": "",
           "placeholder": "",
+          "collection": {
+            "items": {
+            },
+            "include_blank": false
+          },
           "validation": {
             "pattern": "",
             "message": ""
-          },
-          "collection": {
-            "include_blank": false,
-            "items": {
-            }
           }
         }
       }
