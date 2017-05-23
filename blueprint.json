@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2017-05-22T22:33:24+00:00"
+    "timestamp": "2017-05-23 01:34:13 UTC"
   },
   "software": {
     "base": {
@@ -64,9 +64,9 @@
     "installed_packages": [
       {
         "name": "mahara-17.04.1.tar.gz",
-        "source": "https://launchpadlibrarian.net/319316753/mahara-17.04.1.tar.gz",
+        "source_url": "https://launchpadlibrarian.net/319316753/mahara-17.04.1.tar.gz",
         "destination": "./",
-        "extraction_command": "tar -xpf",
+        "extraction_command": "tar -xpf ",
         "path_to_extracted": "mahara-17.04.1/htdocs"
       }
     ],
