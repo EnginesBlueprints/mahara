@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-12-18T14:53:04+11:00"
+    "timestamp": "2018-12-18T17:03:44+11:00"
   },
   "software": {
     "base": {
@@ -63,12 +63,12 @@
     ],
     "installed_packages": [
       {
-        "name": "mahara-17.04.9.tar.gz",
+        "name": "mahara-18.10.0.tar.gz",
         "download_type": "http(s)",
-        "source_url": "https://launchpadlibrarian.net/319316753/mahara-17.04.9.tar.gz",
+        "source_url": "https://launchpadlibrarian.net/394720030/mahara-18.10.0.tar.gz",
         "destination": "./",
         "extraction_command": "tar -xpf ",
-        "path_to_extracted": "mahara-17.04.9/htdocs"
+        "path_to_extracted": "mahara-18.10.0/htdocs"
       }
     ],
     "required_modules": [
