@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-12-18T17:03:44+11:00"
+    "timestamp": "2019-08-23T13:14:54+10:00"
   },
   "software": {
     "base": {
@@ -83,12 +83,14 @@
         "publisher_namespace": "EnginesSystem",
         "type_path": "filesystem/local/filesystem",
         "variables": {
+          "service_name": "datadir",
+          "volume_src": " ",
           "engine_path": "datadir",
           "permissions": "rw",
-          "volume_src": " ",
-          "service_name": "datadir",
+          "user": "_Engines_Builder(data_uid)",
           "group": "_Engines_Builder(group_uid)",
-          "user": "_Engines_Builder(data_uid)"
+          "fw_user": "_Engines_Builder(cont_user_id)",
+          "exclude_from_backup": "false"
         }
       },
       {
@@ -118,12 +120,14 @@
         "publisher_namespace": "EnginesSystem",
         "type_path": "filesystem/local/filesystem",
         "variables": {
+          "service_name": "_Engines_Builder(engine_name)",
+          "volume_src": " ",
           "engine_path": "config",
           "permissions": "rw",
-          "volume_src": " ",
-          "service_name": "_Engines_Builder(engine_name)",
+          "user": "_Engines_Builder(data_uid)",
           "group": "_Engines_Builder(data_gid)",
-          "user": "_Engines_Builder(data_uid)"
+          "fw_user": "_Engines_Builder(cont_user_id)",
+          "exclude_from_backup": "false"
         }
       }
     ],
