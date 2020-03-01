@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2020-03-01T20:04:24+11:00"
+    "timestamp": "2020-03-02T08:58:56+11:00"
   },
   "software": {
     "base": {
@@ -63,12 +63,12 @@
     ],
     "installed_packages": [
       {
-        "name": "mahara-18.10.0.tar.gz",
+        "name": "mahara-19.10.1.tar.gz",
         "download_type": "http(s)",
         "source_url": "https://launchpad.net/mahara/19.10/19.10.1/%2Bdownload/mahara-19.10.1.tar.gz",
         "destination": "./",
         "extraction_command": "tar -xpf ",
-        "path_to_extracted": "mahara-18.10.0/htdocs"
+        "path_to_extracted": "mahara-19.10.1/htdocs"
       }
     ],
     "required_modules": [
